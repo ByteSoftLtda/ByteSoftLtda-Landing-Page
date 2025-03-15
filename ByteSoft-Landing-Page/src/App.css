@@ -59,22 +59,46 @@ h1{
 @media (max-width: 750px) {
   .card-about div{
     flex-direction: column;
+    margin: 30px;
   }
 
   .card-about img{
-    width: 300px;
+    width: 250px;
   }
 
   .card-about-container {
-    width: 80% !important;
+    width: 95% !important;
+    & p {
+      font-size: 1px;
+    }
+  }
+
+  .card-contato{
+    height: 100vh;
   }
 
   .card-contato div:first-child{
-    width: 425px;
+    width: 350px;
   }
 
   .container{
     width: 100% !important;
+  }
+
+  .form{
+    width: 300px !important;
+  }
+  h1{
+    font-size: 15px !important;
+  }
+  p{
+    font-size: 12px !important;
+  }
+  .card h1{
+    font-size: 30px !important;
+  }
+  .card p{
+    font-size: 18px !important;
   }
 }
 
@@ -84,7 +108,7 @@ h1{
     justify-content: center !important;
 
     & img{
-      width: 300px;
+      width: 250px;
     }
 
   }
@@ -92,7 +116,7 @@ h1{
     width: 180% !important;
 
     & img{
-      width: 400px;
+      width: 100%;
     }
   }
 }

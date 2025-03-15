@@ -19,8 +19,6 @@
     letter-spacing: -1px;
     line-height: 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .form input {
