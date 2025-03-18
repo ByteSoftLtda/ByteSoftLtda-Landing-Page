@@ -1,6 +1,22 @@
+@font-face {
+  font-family: 'Ponomar';
+  src: url('assets/fonts/Ponomar-Regular.ttf') format('truetype');
+}
+
 #root {
   max-width: 1280px;
   text-align: center;
+  scroll-behavior: smooth;
+}
+
+
+
+.container {
+  & h1 {
+    font-family: "Ponomar", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
 }
 
 
@@ -52,9 +68,6 @@ h1{
   padding: 25px;
 }
 
-* {
-  font-family: "Inter", sans-serif;
-}
 
 @media (max-width: 750px) {
   .card-about div{
@@ -69,7 +82,7 @@ h1{
   .card-about-container {
     width: 95% !important;
     & p {
-      font-size: 1px;
+      font-size: 15px !important;
     }
   }
 
@@ -120,3 +133,42 @@ h1{
     }
   }
 }
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes bounce-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Começa um pouco abaixo */
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0); /* Volta para a posição original */
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px); /* Sobe e desaparece */
+  }
+}
+
+span {
+  animation: bounce-fade 5s ease-in-out infinite;
+}
+
+
+
