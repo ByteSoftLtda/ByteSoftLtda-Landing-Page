@@ -4,49 +4,60 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import FrostedGlassIcon from "@/components/frosted-glass-icon"
 import {
-  GovernmentIcon,
-  FinanceIcon,
-  HealthcareIcon,
+  LandingIcon,
+  CatalogIcon,
+  HealthIcon,
+  ChatIcon,
+  ServicesIcon,
+  AutomationIcon,
 } from "@/components/use-case-icons"
 
 export default function UseCases() {
   const useCases = [
   {
-    icon: <GovernmentIcon />,
+    icon: <LandingIcon />,
     title: "Landing Pages de Alta Conversão",
     description:
-      "Crie presença digital profissional com páginas rápidas, modernas e otimizadas para conversão — ideal para negócios locais, autônomos e prestadores de serviços.",
+      "Crie presença digital profissional com páginas rápidas, modernas e otimizadas para conversão — ideal para pequenos negócios, autônomos e prestadores de serviços.",
     accentColor: "rgba(139, 92, 246, 0.5)",
   },
   {
-    icon: <FinanceIcon />,
+    icon: <CatalogIcon />,
     title: "Catálogos e Sistemas Comerciais",
     description:
-      "Organize produtos, serviços e informações em catálogos digitais completos, com painéis simples, atualização rápida e integração com ferramentas do seu negócio.",
+      "Organize produtos, serviços e informações em catálogos digitais completos, com gestão prática, atualizações rápidas e visual profissional.",
     accentColor: "rgba(245, 158, 11, 0.5)",
   },
   {
-    icon: <HealthcareIcon />,
-    title: "Sistemas de Saúde e Atendimento Automatizado",
+    icon: <HealthIcon />,
+    title: "Sistemas de Saúde e Agendamentos",
     description:
-      "Automatize agendamentos, triagens e comunicações. Ideal para clínicas, consultórios e profissionais autônomos que precisam de eficiência e segurança.",
+      "Automatize agendamentos, triagens e fluxos de atendimento. Ideal para clínicas, consultórios e profissionais de saúde que precisam de eficiência.",
     accentColor: "rgba(239, 68, 68, 0.5)",
   },
   {
-    icon: <HealthcareIcon />,
-    title: "Atendimento Inteligente para Lojistas",
+    icon: <ChatIcon />,
+    title: "Atendimento Automatizado para Lojistas",
     description:
-      "Bots personalizados que respondem clientes automaticamente, tiram dúvidas, mostram produtos e aumentam a conversão sem esforço manual.",
+      "Bots inteligentes que respondem clientes, mostram produtos e aumentam conversão — funcionando 24h sem depender de atendimento manual.",
     accentColor: "rgba(59, 130, 246, 0.5)",
   },
   {
-    icon: <FinanceIcon />,
-    title: "Soluções para Prestadores de Serviços e Autônomos",
+    icon: <ServicesIcon />,
+    title: "Soluções para Prestadores de Serviços",
     description:
-      "Agendamento online, páginas de portfólio, formulários inteligentes e automações que economizam tempo e profissionalizam seu atendimento.",
+      "Agendamento online, portfólio profissional, formulários inteligentes e automações que simplificam o dia a dia e elevam o nível do atendimento.",
     accentColor: "rgba(16, 185, 129, 0.5)",
   },
+  {
+    icon: <AutomationIcon />,
+    title: "Automação para Pequenos Negócios",
+    description:
+      "Fluxos automatizados de mensagens, captura de leads, lembretes e integrações que reduzem tarefas repetitivas e aumentam resultados.",
+    accentColor: "rgba(234, 179, 8, 0.5)",
+  },
 ]
+
 
 
   // Variantes de animação para o container
