@@ -11,28 +11,43 @@ import {
 
 export default function UseCases() {
   const useCases = [
-    {
-      icon: <GovernmentIcon />,
-      title: "Operações Governamentais",
-      description:
-        "Otimize processos, melhore os serviços aos cidadãos e tome decisões mais eficazes com soluções de IA seguras.",
-      accentColor: "rgba(139, 92, 246, 0.5)",
-    },
-    {
-      icon: <FinanceIcon />,
-      title: "Serviços Financeiros",
-      description:
-        "Aprimore conformidade, avaliação de riscos e atendimento ao cliente com IA que respeita rigorosos requisitos de segurança de dados.",
-      accentColor: "rgba(245, 158, 11, 0.5)",
-    },
-    {
-      icon: <HealthcareIcon />,
-      title: "Saúde",
-      description:
-        "Melhore o cuidado ao paciente e a eficiência operacional mantendo a conformidade com HIPAA e a privacidade dos dados.",
-      accentColor: "rgba(239, 68, 68, 0.5)",
-    }
-  ]
+  {
+    icon: <GovernmentIcon />,
+    title: "Landing Pages de Alta Conversão",
+    description:
+      "Crie presença digital profissional com páginas rápidas, modernas e otimizadas para conversão — ideal para negócios locais, autônomos e prestadores de serviços.",
+    accentColor: "rgba(139, 92, 246, 0.5)",
+  },
+  {
+    icon: <FinanceIcon />,
+    title: "Catálogos e Sistemas Comerciais",
+    description:
+      "Organize produtos, serviços e informações em catálogos digitais completos, com painéis simples, atualização rápida e integração com ferramentas do seu negócio.",
+    accentColor: "rgba(245, 158, 11, 0.5)",
+  },
+  {
+    icon: <HealthcareIcon />,
+    title: "Sistemas de Saúde e Atendimento Automatizado",
+    description:
+      "Automatize agendamentos, triagens e comunicações. Ideal para clínicas, consultórios e profissionais autônomos que precisam de eficiência e segurança.",
+    accentColor: "rgba(239, 68, 68, 0.5)",
+  },
+  {
+    icon: <HealthcareIcon />,
+    title: "Atendimento Inteligente para Lojistas",
+    description:
+      "Bots personalizados que respondem clientes automaticamente, tiram dúvidas, mostram produtos e aumentam a conversão sem esforço manual.",
+    accentColor: "rgba(59, 130, 246, 0.5)",
+  },
+  {
+    icon: <FinanceIcon />,
+    title: "Soluções para Prestadores de Serviços e Autônomos",
+    description:
+      "Agendamento online, páginas de portfólio, formulários inteligentes e automações que economizam tempo e profissionalizam seu atendimento.",
+    accentColor: "rgba(16, 185, 129, 0.5)",
+  },
+]
+
 
   // Variantes de animação para o container
   const containerVariants = {
